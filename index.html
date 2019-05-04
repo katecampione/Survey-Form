@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ 
+
+<title>Survey Form</title>
+
+    <h1 id="title">Survey Form</h1>
+    
+      <div id="form-outer">
+        <p id="description">
+      Let us know how we can improve freeCodeCamp
+    </p>
+        <p>
+      <form id="survey-form">
+    <label id="name-label"  for="name">* Name: </label> 
+   <input type="text" name="Name" id="name" value ="name" placeholder="Enter your name" required><br>  
+        </p>
+        <p>
+    <label id="email-label"  for="email">* Email:</label>
+    <input type="email" name="email" id ="email" class="input-field" required placeholder="Email"><br>
+        </p>
+        <p id="age">
+    <label id="number-label" for="age">* Age:</label>
+    <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age"><br>
+        </p>
+  <p>
+    <label id="role" for="role">Which best describes your current role?</label>
+      
+    <select class="right" id="dropdown" name="dropdown">
+      <option selected disabled>Select an option</option>
+      <option value="student">Student</option>
+      <option value="job">Full Time Job</option>
+      <option value="learner">Full Time Learner</option>
+      <option value="other">Other</option>
+    <div id="question">
+      </select>
+      <div ="recommend">
+    How likely is it that you would recommend freeCodeCamp to a friend? 
+
+     <ul style="list-style: none;">
+       <li>
+     <div id="radio">
+       <label id="definitely" for="definitely">Definitely</label>
+       <input type="radio" name="radio-buttons" value="1" placeholder="definitely" checked>
+       </li>
+       <li>
+       <label id="maybe" for="maybe">Maybe</label>
+       <input type="radio" name="radio-buttons" value="2" placeholder="maybe">
+       </li>
+         <li>
+       <label id="not-sure" for="not-sure">Not sure</label>
+       <input type="radio" name="radio-buttons" value="3" placeholder="not-sure">
+       </li>
+    </ul>
+       </div>
+   
+      <label id="like" for="like">What do you like most in FCC: </label>
+    <select class="right" id="dropdown-2" name="dropdown-2">
+      <option selected disabled>Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="community">Community</option>
+      <option value="open-source">Open Source</option>
+      <option value="other">Other</option>
+      </select>
+      <br>
+      <p>
+        <label>Things that should be improved in the future (Check all that apply):</label>
+      <ul style="list-style"; none;>
+       <li>
+      <label class="container">Front-end Projects
+  <input type="checkbox" value="1" checked="checked">
+  <span class="checkmark"></span>
+         
+</label>
+       </li> 
+<li>
+<label class="container">Back-end Projects
+  <input type="checkbox" value="2">
+  <span class="checkmark"></span>
+</label>
+ </li>
+<li>
+<label class="container">Data Visualization
+  <input type="checkbox" value="3">
+  <span class="checkmark"></span>
+</label>
+</li>
+<li>
+<label class="container">Additional Courses
+  <input type="checkbox" value="4">
+  <span class="checkmark"></span>
+</label>
+        </li>
+      </ul></p>
+        
+        <label id="suggestions" for="comments">Any Comments or Suggestions?</label><br>
+        <textarea id="comments" class="input-field" style="height:100px; width: 400px; resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea><br>
+       
+    <input id="submit" type="submit" name="submit">
+  
+  
+
+</body>
+
+</html>

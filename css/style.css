@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html {
+  background-color: #00e6ac;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+  
+}
+
+#form-outer {
+  background-color: white;
+  margin: 20px 220px 0px 220px;
+  border-radius: 25px;
+}
+
+#question {
+  margin: 10px 0px 10px 0px;
+}
+
+#submit {
+  color: White;
+  background-color: blue;
+  margin: 30px;
+  font-size: 20px;
+}
+
+#radio {
+  padding: 5px 10px 0px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#suggestions {
+  margin: 0px 20px 0px 0px;
+   
+}
+
+#like {
+  margin: 20px 10px 20px 20px
+  padding: 0px 0px 10px 10px
+}
+
+#description {
+  padding: 20px;
+  font-size: 20px;
+}
+
