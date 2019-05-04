@@ -5,11 +5,11 @@ html {
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
-  
+
 }
 
 #form-outer {
-  background-color: white;
+  background-color: blue;
   margin: 20px 220px 0px 220px;
   border-radius: 25px;
 }
@@ -35,7 +35,7 @@ ul {
 
 #suggestions {
   margin: 0px 20px 0px 0px;
-   
+
 }
 
 #like {
@@ -47,4 +47,3 @@ ul {
   padding: 20px;
   font-size: 20px;
 }
-
